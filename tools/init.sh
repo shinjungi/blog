@@ -21,6 +21,7 @@ check_init() {
 
   if [[ ! -d docs ]]; then
     if [[ ! -d .github ]]; then
+    echo 'asdasd'
       _has_inited=true # --no-gh
     else
       if [[ -f .github/workflows/$ACTIONS_WORKFLOW ]]; then

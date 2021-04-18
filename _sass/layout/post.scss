@@ -120,7 +120,6 @@
     margin-top: 0.3rem;
     white-space: normal;
   }
-
 } // .post-navigation
 
 @keyframes fade-up {
@@ -271,13 +270,11 @@
         @include btn-sharing-color(rgb(229, 20, 43));
       }
     }
-
   } // .share-icons
 
   .fas.fa-link {
     @include btn-sharing-color(rgb(171, 171, 171));
   }
-
 } // .share-wrapper
 
 .share-label {
@@ -306,21 +303,21 @@
   .post-tail-bottom {
     -ms-flex-wrap: wrap-reverse !important;
     flex-wrap: wrap-reverse !important;
-    >div:first-child {
+    > div:first-child {
       width: 100%;
       margin-top: 1rem;
     }
   }
 
-  .post-content > div[class^='language-'] {
+  .post-content > div[class^="language-"] {
     @include ml-mr(-1.25rem);
 
     border-radius: 0;
-    &::before { // the lang badge
+    &::before {
+      // the lang badge
       right: 1rem;
     }
   }
-
 }
 
 @media all and (max-width: 768px) {
@@ -332,7 +329,7 @@
 @media all and (min-width: 768px) {
   #post-wrapper {
     .post-meta {
-      >div:not(:first-child)::before {
+      > div:not(:first-child)::before {
         @include dot(0.5rem, 0.2rem);
       }
       &.flex-column {
@@ -350,7 +347,7 @@
   .post-navigation {
     padding-left: 0;
     padding-right: 0;
-    margin-left: -.5rem;
-    margin-right: -.5rem;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
   }
 }

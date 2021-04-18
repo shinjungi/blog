@@ -33,7 +33,10 @@
   --checkbox-checked-color: var(--link-color);
 
   /* Sidebar */
+  --slidebar-text-color: #rgba(255, 255, 255, 0.5);
   --nav-cursor-color: rgb(183, 182, 182);
+  --nav-link-active: #f8f9facf;
+  --nav-link-hover: #fcfcfc;
   --sidebar-bg: radial-gradient(circle, #242424 0%, #1d1f27 100%);
 
   /* Top Bar */
@@ -93,11 +96,11 @@
   }
 
   /* posts' toc, override BS */
-  nav[data-toggle=toc] .nav-link.active,
-  nav[data-toggle=toc] .nav-link.active:focus,
-  nav[data-toggle=toc] .nav-link.active:hover,
-  nav[data-toggle=toc] .nav > li > a:focus,
-  nav[data-toggle=toc] .nav > li > a:hover {
+  nav[data-toggle="toc"] .nav-link.active,
+  nav[data-toggle="toc"] .nav-link.active:focus,
+  nav[data-toggle="toc"] .nav-link.active:hover,
+  nav[data-toggle="toc"] .nav > li > a:focus,
+  nav[data-toggle="toc"] .nav > li > a:hover {
     color: var(--toc-highlight) !important;
     border-left-color: var(--toc-highlight) !important;
   }
@@ -130,7 +133,7 @@
       rgb(39, 39, 45),
       rgb(39, 39, 45),
       rgb(39, 39, 45),
-      rgb(26, 26, 30));
+      rgb(26, 26, 30)
+    );
   }
-
 } // dark-scheme
