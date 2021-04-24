@@ -1,5 +1,5 @@
 ---
-title: 정보처리기사 실기 기출문제 1
+title: 2020년 정보처리기사 실기 1회차 기출문제
 author: jungi
 date: 2021-04-23 13:25:00 +0900
 categories: [develop, license]
