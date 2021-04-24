@@ -1,7 +1,7 @@
 ---
 title: 2020년 정보처리기사 실기 4회차 기출문제
 author: jungi
-date: 2021-04-24 14:29:00 +0900
+date: 2021-04-24 14:30:00 +0900
 categories: [develop, license]
 tags: [license, 정보처리기사]
 ---
