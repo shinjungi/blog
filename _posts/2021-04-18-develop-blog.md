@@ -3,7 +3,7 @@ title: 개발 블로그를 시작하면서
 author: jungi
 date: 2021-04-18 14:07:00 +0900
 categories: [develop, diary]
-tags: [diary]
+tags: []
 image:
   src: https://cdn.pixabay.com/photo/2016/03/09/09/17/desktop-1245714__480.jpg
 ---
