@@ -13,9 +13,9 @@
   --heading-color: black;
   --blockquote-border-color: #eee;
   --blockquote-text-color: #9a9a9a;
-  --link-color: #2a408e;
+  --link-color: #777;
   --link-underline-color: #dee2e6;
-  --text-muted-color: gray;
+  --text-muted-color: #777;
   --tb-odd-bg: #fbfcfd;
   --tb-border-color: #eaeaea;
   --button-bg: #fff;
@@ -24,17 +24,14 @@
   --btn-box-shadow: #eaeaea;
   --checkbox-color: #c5c5c5;
   --checkbox-checked-color: #07a8f7;
+  --card-header-bg: rgba(255, 197, 167, 0.9);
 
   /* Sidebar */
-  --sidebar-bg: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(243, 243, 243, 1) 100%
-  );
-  --slidebar-text-color: rgba(0, 0, 0, 0.5);
-  --nav-cursor-color: #111;
-  --nav-link-active: #111;
-  --nav-link-hover: #rgba(0, 0, 0, 0.6);
+  --sidebar-bg: rgba(255, 197, 167, 0.9);
+  --slidebar-text-color: #777;
+  --nav-cursor-color: #fff;
+  --nav-link-active: #fff;
+  --nav-link-hover: rgba(255, 255, 255, 0.9);
 
   /* Topbar */
   --topbar-wrapper-bg: white;
@@ -45,16 +42,16 @@
   --input-focus-border-color: var(--btn-border-color);
 
   /* Home page */
-  --post-list-text-color: dimgray;
-  --btn-patinator-text-color: #555555;
+  --post-list-text-color: #777;
+  --btn-patinator-text-color: #fff;
   --btn-paginator-hover-color: #e9ecef;
-  --btn-active-bg: #2a408e;
-  --btn-active-border-color: #007bff;
+  --btn-active-bg: #777;
+  --btn-active-border-color: #777
   --btn-text-color: #f8f8f8;
   --btn-paginator-border-color: #f1f1f1;
-  --btn-paginator-shadow: #4b92d2;
+  --btn-paginator-shadow: #fff;
   --pin-bg: #f5f5f5;
-  --pin-color: #999fa4;
+  --pin-color: #fff;
 
   /* Posts */
   --btn-share-hover-color: var(--link-color);
@@ -79,3 +76,15 @@
   --footnote-target-bg: lightcyan;
   --footer-link: #424242;
 } // light-scheme
+
+/* categories */
+.categories.card,
+.list-group-item {
+  background-color: var(--card-bg);
+}
+
+.categories {
+  .card-header {
+    background-color: var(--card-header-bg);
+  }
+}
